@@ -1,6 +1,6 @@
 null :=
 space := ${null} ${null}
-TAG := -
+TAG := -_-
 MAKE_TAGS = --no-print-directory
 %:
 	$(eval _subst := $(subst $(TAG), , $@))
